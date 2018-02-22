@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+  flex-wrap: wrap;
+}
+
+h1 {
+
+}
+.input {
+  border-radius: 7px;
+}
+
+.button {
+  border-radius: 7px;
+  margin: 10px;
+}
+
+.list {
+  list-style: none;
+  width: 15em;
+  padding-left: 0;
+}
+
+.item {
+  background-color: #ffcc00;
+  border-radius: 7px;
+  padding: 10px;
+  padding-left: 15px;
+  margin: 10px;
+  width: 15em;
+
+
+}
+
+.done {
+  background-color: #ffdd99;
+  text-decoration: line-through;
+
+  color:  #bfbfbf;
+}
